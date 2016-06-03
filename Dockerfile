@@ -1,5 +1,5 @@
 FROM selenium/node-base:2.47.1
-MAINTAINER Selenium <selenium-developers@googlegroups.com>
+MAINTAINER Ashish <ashishlal@test.com>
 
 USER root
 
