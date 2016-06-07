@@ -6,8 +6,7 @@ USER root
 #=========
 # Firefox
 #=========
-RUN rm -rf /opt/selenium \
-  && mkdir -p /opt/selenium \
+RUN rm -f /opt/selenium/selenium-server-standalone.jar \
   && wget --no-verbose https://selenium-release.storage.googleapis.com/2.43/selenium-server-standalone-2.43.1.jar -O /opt/selenium/selenium-server-standalone.jar
 
 RUN apt-get purge -qqy firefox
